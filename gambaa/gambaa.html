@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        margin: 0;
+      }
+
+      .menus {
+        display: flex;
+        gap: 24px;
+        text-decoration: none;
+      }
+
+      .home {
+        color: white;
+      }
+
+      .about {
+        color: white;
+      }
+
+      .contact {
+        color: white;
+      }
+      .hero-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 60px;
+        width: 1024px;
+      }
+      .en {
+        display: flex;
+        width: 40px;
+        height: 40px;
+        padding: 13;
+        background-color: white;
+        border-radius: 20px;
+        align-items: center;
+        gap: 10px;
+        justify-content: center;
+      }
+      .section-one {
+        background-image: url(Image.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .pure-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+      }
+
+      .pure {
+        color: #e8edf2b8;
+        font-size: 80px;
+      }
+      .awaist {
+        color: aliceblue;
+        font-size: 250px;
+      }
+      .number {
+        color: aliceblue;
+        font-size: 64px;
+      }
+      .img-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="section-one">
+      <div class="hero-container">
+        <img src="logo 1.svg" alt="" />
+        <div class="menus">
+          <a style="text-decoration: none" class="home" href="">home</a>
+          <a style="text-decoration: none" class="about" href="">about</a>
+          <a style="text-decoration: none" class="contact" href="">contact</a>
+          <img src="user.svg" alt="" />
+        </div>
+
+        <button class="en">EN</button>
+      </div>
+      <div class="pure-container">
+        <p class="pure">PURE MAGIC</p>
+        <p class="awaist">AWAIST!</p>
+        <p class="number">2024</p>
+      </div>
+    </div>
+    <div>
+      <div class="img-container">
+        <img class="terh" src="terh.png" alt="" />
+        <img class="amarbaysaglan" src="amarbaysaglan.png" alt="" />
+        <img class="khuvsgul" src="khuvsgul.png" alt="" />
+        <img class="khorgiin" src="khorgiin togoo.png" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
